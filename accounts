@@ -1,0 +1,20 @@
+python
+accounts = {
+    '收入': 0, '成本': 0, 
+    '银行': 0, '商誉': 0  
+}
+
+accounts['收入'] += 100  
+accounts['成本'] -= 50 
+accounts['银行'] += 10  
+accounts['商誉'] += 20
+accounts['收入'] -= 20  
+
+income = accounts['收入']  
+cost = accounts['成本']  
+bank = accounts['银行']  
+goodwill = accounts['商誉']
+print(f'收入: {income}')   # 80
+print(f'成本: {cost}')  # -50
+print(f'银行: {bank}')   # 10
+print(f'商誉: {goodwill}') # 20
