@@ -1,0 +1,7 @@
+python
+assets = 10000  
+liabilities = 5000 
+equity = assets - liabilities
+print(f'资产: {assets}')
+print(f'负债: {liabilities}') 
+print(f'净资产: {equity}')
