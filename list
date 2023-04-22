@@ -1,0 +1,33 @@
+python 
+accounts = {
+    '收入': 0, 
+    '成本': 0, 
+    '费用': 0,
+    '银行': 0 
+}
+
+# 收入增加
+accounts['收入'] += 1000  
+
+# 成本支出 
+accounts['成本'] -= 500  
+
+# 转账到银行
+accounts['银行'] += 200 
+accounts['收入'] -= 200
+
+# 记录支出 
+accounts['费用'] -= 100  
+
+# 查看账户余额
+income = accounts['收入']  
+cost = accounts['成本']  
+expense = accounts['费用']
+bank = accounts['银行']
+profit = income + cost + expense 
+
+print(f'收入: {income}')  
+print(f'成本: {cost}')
+print(f'费用: {expense}')  
+print(f'银行: {bank}')
+print(f'利润: {profit}')
