@@ -1,0 +1,5 @@
+python
+sales_tax_rate = 0.1
+sales_amount = 100
+sales_tax = sales_amount * sales_tax_rate 
+print(f'销售税: {sales_tax}')  # 10
