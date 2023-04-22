@@ -1,0 +1,9 @@
+python 
+revenue = 20000  
+cost = 15000  
+expense = 5000 
+profit = revenue - cost - expense
+print(f'收入: {revenue}')  
+print(f'成本: {cost}')
+print(f'费用: {expense}')  
+print(f'利润: {profit}')
